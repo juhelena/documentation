@@ -47,17 +47,10 @@ export type Sidebar = Record<
 >;
 export const SIDEBAR: Sidebar = {
 	pt: {
-		'General': [
-			{ text: 'Introduction', link: 'pt/introduction' },
-		],
-		'Another Section': [
-			{ text: 'Page 4', link: 'pt/page-4' }
-		],
-		'Style pattern': [
-			{ text: 'Introduction', link: 'pt/introduction' },
-			{ text: 'Page 2', link: 'pt/page-2' },
-			{ text: 'Page 3', link: 'pt/page-3' },
-			{ text: 'Page 5', link: 'pt/page-5' },
+		'Nosso projeto': [
+			{ text: 'Introdução', link: 'pt/introduction' },
+			{ text: 'Objetivo', link: 'pt/page-2' },
+			{ text: 'Funcionalidades', link: 'pt/page-3' },
 		],
 	},
 };

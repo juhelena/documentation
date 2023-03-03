@@ -333,12 +333,12 @@ h2.heading {
 .header-link:hover,
 .header-link:focus,
 .header-link:focus-within {
-	border-inline-start-color: var(--theme-accent-secondary);
+	border-inline-start-color: #9139D3;
 }
 
 .header-link:hover a,
 .header-link a:focus {
-	color: var(--theme-text);
+	color: #9139D3;
 }
 .header-link svg {
 	opacity: 0.6;
